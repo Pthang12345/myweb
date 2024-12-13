@@ -1,0 +1,75 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-items: center; 
+    height: 100vh;
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f4f4f4;
+}
+
+.login-box{
+    background-color: white;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+    height: 60%;
+}
+
+.login-box h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.login-box input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgb(212, 249, 255);
+    font-size: 16px;
+}
+
+.login-box button{
+    width: 100%;
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.login-box button:hover {
+    background-color: tomato;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.option input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+.option label{
+    font-size: 16px;
+}
+

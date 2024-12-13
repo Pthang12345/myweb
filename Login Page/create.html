@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h2>Đăng kí tài khoản</h2>
+            <form action="", method="">
+                <input type="text" name="name" value="" placeholder="Tên người dùng">
+                <input type="password" name="password" value="" placeholder="Mật khẩu">
+                <input type="password" name="password" value="" placeholder="Nhập lại mật khẩu">
+                <div>
+                    <button id="btn-register" type="button">Đăng ký</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        document.getElementById('btn-register').addEventListener('click', function () {
+            alert("Đăng ký thành công! Chuyển hướng đến trang đăng nhập...");
+            window.location.href = "./index.html";
+        });
+    </script>
+</body>
+</html>
